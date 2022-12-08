@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* BIO */
+
+.bio {
+    display: block;
+    text-align: center;
+    margin: px;
+}
+
+.bio h1 {
+    font-size: 25px;
+    margin: 0px;
+    color: #56028d;
+}
+
+.bio p {
+    font-size: 15px;
+    margin-top: 3px;
+    color: #a2a2a2;
+}
+
+.foto {
+    margin-top: 60px;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    align-items: center;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.footer-basic .social>a {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #a4cfac;
+    margin: 0 5px;
+    color: #77977d;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+
+/* BUTTON */
+
+.Portifólio {
+    margin-top: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    color: #56028d;
+    background-color: #f2f2f2;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 15px;
+}
+
+.Portifólio a {
+    text-decoration: none;
+    /* font-size: 25px; */
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.Portifólio>:hover {
+    opacity: 0.9;
+}
+
+.orçamento {
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    color: #56028d;
+    background-color: #f2f2f2;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 15px;
+}
+
+.orçamento a {
+    text-decoration: none;
+    /* font-size: 25px; */
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.orçamento>:hover {
+    opacity: 0.9;
+}
